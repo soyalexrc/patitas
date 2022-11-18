@@ -4,6 +4,7 @@ import GlobalStyles from "./theme/globalStyles";
 import ScrollToTop from "./shared/components/ScrollToTop";
 import Router from "./routes";
 import SplashScreen from "@/shared/components/SplashScreen";
+import './App.css';
 // import {SnackbarProvider} from 'notistack'
 
 function App() {

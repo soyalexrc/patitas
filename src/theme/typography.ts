@@ -26,9 +26,11 @@ function responsiveFontSizes({ sm, md, lg }: Sizes) {
   };
 }
 
-const FONT_PRIMARY = "Roboto-Regular"; // Local Font
-const FONT_HEADERS = "Roboto-Bold"; // Local Font
-const FONT_BOLD = "Roboto-Bold"; // Local Font
+const FONT_PRIMARY = "CaviarDreams-Bold"; // Local Font
+// const FONT_PRIMARY = "CaviarDreams-BoldItalic"; // Local Font
+const FONT_HEADERS = "Chunkfive-Ex"; // Local Font
+// const FONT_HEADERS = "CaviarDreams-Bold"; // Local Font
+const FONT_BOLD = "CaviarDreams-Bold"; // Local Font
 
 const typography = {
   fontFamily: FONT_PRIMARY,

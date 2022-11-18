@@ -8,8 +8,7 @@ export default function UserLayout() {
   const navigate = useNavigate();
 
   return (
-    <Box component="main"
-         sx={{ width: '100%', height: '100%', flexGrow: 1, backgroundColor: '#fff'}}>
+    <Box component="main" sx={{ width: '100%', height: '100%', flexGrow: 1, backgroundColor: '#fff'}}>
       <Outlet/>
     </Box>
   )

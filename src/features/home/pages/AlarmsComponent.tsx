@@ -65,16 +65,16 @@ export default function AlarmsComponent() {
         }}
       >
         <>
-          <Box p={2}>
+          <Box px={2}>
             <IconButton onClick={() => navigate(-1)}>
               <ArrowBackIosIcon fontSize='large' sx={{ color: '#fff' }}/>
             </IconButton>
           </Box>
           <Box display='flex' justifyContent='center' mb={5}>
-            <box>
+            <Box>
               <Box component='img' src={logo} sx={{ width: '100%', maxWidth: '500px' }} />
               <Typography align='center' style={{ color: '#FFF', marginTop: '-3rem' }} fontSize='54px'>Alarmas</Typography>
-            </box>
+            </Box>
           </Box>
           <Box display='flex' flexDirection='column' alignItems='center'>
             {

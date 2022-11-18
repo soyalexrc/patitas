@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "CaviarDreams-Bold";
+    font-style: normal;
+    font-display: swap;
+    src: local("CaviarDreams_Bold"),
+    url("./fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CaviarDreams-BoldItalic";
+    font-style: normal;
+    font-display: swap;
+    src: local("CaviarDreams_BoldItalic"),
+    url("./fonts/CaviarDreams_BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CaviarDreams-Italic";
+    font-style: normal;
+    font-display: swap;
+    src: local("CaviarDreams_Italic"),
+    url("./fonts/CaviarDreams_Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Chunkfive-Ex";
+    font-style: normal;
+    font-display: swap;
+    src: local("Chunkfive Ex"),
+    url("./fonts/Chunkfive Ex.ttf") format("truetype");
+}
+

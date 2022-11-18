@@ -25,31 +25,31 @@ const Item = styled(Box)(({theme}) => ({
 const sampleItems = [
   {
     title: 'Alarmas',
-    path: '/alarmas'
+    path: 'alarmas'
   },
   {
     title: 'Ciclo de vida',
-    path: '/ciclo-de-vida'
+    path: 'ciclo-de-vida'
   },
   {
     title: 'Alimentacion',
-    path: '/alimentacion'
+    path: 'alimentacion'
   },
   {
     title: 'Aseo',
-    path: '/aseo'
+    path: 'aseo'
   },
   {
     title: 'Juegos',
-    path: '/juegos'
+    path: 'juegos'
   },
   {
     title: 'Salud',
-    path: '/salud'
+    path: 'salud'
   },
   {
     title: 'Cuidado',
-    path: '/cuidado'
+    path: 'cuidado'
   },
 ]
 

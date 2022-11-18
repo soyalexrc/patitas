@@ -13,8 +13,8 @@ export default function UserProtectedRoute({ children }: props) {
   // console.log(token);
   // const location = useLocation();
 
-  if ( !localStorage.getItem('patitas-token')) {
-    return <Navigate to="/auth" replace  />;
+  if (!localStorage.getItem('patitas-token')) {
+    return <Navigate to="/registro" replace  />;
   }
 
   return children;
