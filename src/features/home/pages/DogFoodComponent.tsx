@@ -11,7 +11,7 @@ import {styled} from "@mui/material/styles";
 import disabledPatita from '@/assets/icons/patita-disabled.png';
 import pinkPatita from '@/assets/icons/patita-pink.png';
 
-const ResponsiveImg = styled(Box)(({theme}) => ({
+const ResponsiveImg = styled('img')(({theme}) => ({
   zIndex: 1,
   maxWidth: '200px',
   maxHeight: '200px',
@@ -67,7 +67,6 @@ export default function DogFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -197,7 +196,6 @@ export default function DogFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -307,7 +305,6 @@ export default function DogFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -423,7 +420,6 @@ export default function DogFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -537,7 +533,6 @@ export default function DogFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>

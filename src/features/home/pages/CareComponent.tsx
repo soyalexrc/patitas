@@ -11,7 +11,7 @@ import {styled} from "@mui/material/styles";
 import disabledPatita from '@/assets/icons/patita-disabled.png';
 import orangePatita from '@/assets/icons/patita-orange.png';
 
-const ResponsiveImg = styled(Box)(({theme}) => ({
+const ResponsiveImg = styled('img')(({theme}) => ({
   zIndex: 1,
   maxWidth: '200px',
   maxHeight: '200px',
@@ -37,13 +37,7 @@ function DogFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
-              sx={{
-                zIndex: 1,
-                width: !largeScreen ? '150px' : 'auto',
-                height: !largeScreen ? '150px' : 'auto',
-              }}
             />
             <Box>
               <Box
@@ -166,13 +160,7 @@ function DogFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={pamela}
-              sx={{
-                zIndex: 1,
-                width: !largeScreen ? '150px' : 'auto',
-                height: !largeScreen ? '150px' : 'auto',
-              }}
             />
             <Box>
               <Box
@@ -305,13 +293,7 @@ function DogFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
-              sx={{
-                zIndex: 1,
-                width: !largeScreen ? '150px' : 'auto',
-                height: !largeScreen ? '150px' : 'auto',
-              }}
             />
             <Box>
               <Box
@@ -447,13 +429,7 @@ function DogFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
-              sx={{
-                zIndex: 1,
-                width: !largeScreen ? '150px' : 'auto',
-                height: !largeScreen ? '150px' : 'auto',
-              }}
             />
             <Box>
               <Box
@@ -600,7 +576,6 @@ function CatFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
             />
             <Box>
@@ -737,7 +712,6 @@ function CatFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={pamela}
             />
             <Box>
@@ -861,7 +835,6 @@ function CatFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
             />
             <Box>
@@ -998,7 +971,6 @@ function CatFeeding({largeScreen}) {
         <Grid item xs={12} md={10}>
           <Box display='flex'>
             <ResponsiveImg
-              component='img'
               src={estefania}
             />
             <Box>

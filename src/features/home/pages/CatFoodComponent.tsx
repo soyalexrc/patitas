@@ -1,17 +1,16 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import Page from "@/shared/components/Page";
-import {Box, IconButton, Typography, Grid, Button, useMediaQuery} from "@mui/material";
+import {Box, IconButton, Typography, Grid, useMediaQuery} from "@mui/material";
 import Transitions from "@/shared/components/Transitions";
 import logo from "@/assets/images/logo-patitas.png";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import estefania from '@/assets/images/estefania-garcia.png';
-import pamela from '@/assets/images/pamela-hernandez.png';
 import {styled} from "@mui/material/styles";
 import disabledPatita from '@/assets/icons/patita-disabled.png';
 import pinkPatita from '@/assets/icons/patita-pink.png';
 
-const ResponsiveImg = styled(Box)(({theme}) => ({
+const ResponsiveImg = styled('img')(({theme}) => ({
   zIndex: 1,
   maxWidth: '200px',
   maxHeight: '200px',
@@ -67,7 +66,6 @@ export default function CatFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -175,7 +173,6 @@ export default function CatFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -287,7 +284,6 @@ export default function CatFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -409,7 +405,6 @@ export default function CatFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
@@ -527,7 +522,6 @@ export default function CatFoodComponent() {
               <Grid item xs={12} md={10}>
                 <Box display='flex'>
                   <ResponsiveImg
-                    component='img'
                     src={estefania}
                   />
                   <Box>
